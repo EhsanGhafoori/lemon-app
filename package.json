@@ -1,6 +1,7 @@
 {
-  "name": "lemon-app-init",
-  "main": "expo-router/entry",
+  "name": "little-lemon-food-app",
+  "description": "A food ordering app for Little Lemon restaurant",
+  "main": "index.js",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",

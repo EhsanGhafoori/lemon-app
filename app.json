@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "lemon-app-init",
-    "slug": "lemon-app-init",
+    "name": "Little Lemon Food App",
+    "slug": "little-lemon-food-app",
     "version": "1.0.0",
+    "description": "A food ordering app for Little Lemon restaurant",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "lemonappinit",
+    "scheme": "littlelemon",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -26,16 +27,15 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#495E57",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#495E57"
           }
         }
       ]
