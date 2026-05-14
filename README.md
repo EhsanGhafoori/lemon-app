@@ -1,59 +1,49 @@
 # Little Lemon monorepo
 
-This repository combines:
+This repo has **two** apps:
 
-1. **Expo (React Native)** app at the **repository root** (from the [CubiFlow/lemon-app](https://github.com/CubiFlow/lemon-app) layout): run `npm install` then `npx expo start`.
-2. **Native iOS (SwiftUI)** Meta/Coursera project in **`little-lemon-food-ordering/`**: open `little-lemon-food-ordering/LittleLemonFoodOrdering.xcodeproj` in **Xcode** on a Mac. Add your Home wireframe JPG under `little-lemon-food-ordering/design/`.
+| Part | Stack | How to run |
+|------|--------|------------|
+| **Repository root** | [Expo](https://expo.dev) + React Native (layout similar to [CubiFlow/lemon-app](https://github.com/CubiFlow/lemon-app)) | `npm install` → `npx expo start` |
+| **`little-lemon-food-ordering/`** | SwiftUI (Meta / Coursera iOS capstone) | Open `little-lemon-food-ordering/LittleLemonFoodOrdering.xcodeproj` in **Xcode** on a Mac (iOS 17+ simulator recommended) |
+
+**Course / peer review:** add your **Home screen wireframe** (export from Figma as JPG) under:
+
+`little-lemon-food-ordering/design/`  
+(e.g. `HomeScreenWireframe.jpg`).
 
 ---
 
-# Welcome to your Expo app 👋
+## Expo app (root)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). Routing lives in the [`app`](./app) directory ([Expo Router](https://docs.expo.dev/router/introduction/)).
 
-## Get started
+```bash
+npm install
+npx expo start
+```
 
-1. Install dependencies
+Then choose **iOS simulator**, **Android emulator**, **Expo Go**, or a **development build** from the terminal UI.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+To reset the starter to a blank `app` folder (optional):
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Docs:** [Expo documentation](https://docs.expo.dev/) · [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Native iOS app (`little-lemon-food-ordering/`)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Open:** `LittleLemonFoodOrdering.xcodeproj`
+- **Signing:** set your **Team** in Xcode if the simulator build fails for signing.
+- **Wireframe:** commit a JPG into `design/` for assignment submission.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Community (Expo)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Discord](https://chat.expo.dev)
