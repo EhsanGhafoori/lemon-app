@@ -1,8 +1,13 @@
 {
   "name": "little-lemon-food-app",
-  "description": "A food ordering app for Little Lemon restaurant",
+  "version": "1.1.0",
+  "description": "Little Lemon food ordering — Expo app (root) + SwiftUI iOS app in little-lemon-food-ordering/.",
+  "author": "Ehsan Ghafoori (https://github.com/EhsanGhafoori)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EhsanGhafoori/lemon-app.git"
+  },
   "main": "index.js",
-  "version": "1.0.0",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -13,10 +18,10 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
-    "@react-native-async-storage/async-storage": "^3.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
-    "@react-navigation/native": "^7.2.4",
+    "@react-navigation/native": "^7.1.8",
     "@react-navigation/stack": "^7.9.1",
     "expo": "~54.0.33",
     "expo-constants": "~18.0.13",

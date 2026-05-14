@@ -1,4 +1,6 @@
-# Little Lemon Food Ordering App - Project Summary
+# Little Lemon Food Ordering App — Project Summary
+
+**Author / maintainer:** Ehsan Ghafoori · [lemon-app](https://github.com/EhsanGhafoori/lemon-app)
 
 ## ✅ Project Completion Status
 

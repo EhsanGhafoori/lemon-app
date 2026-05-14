@@ -1,10 +1,12 @@
 # Little Lemon monorepo
 
+**Maintainer:** [Ehsan Ghafoori](https://github.com/EhsanGhafoori) · Repository: [github.com/EhsanGhafoori/lemon-app](https://github.com/EhsanGhafoori/lemon-app)
+
 This repo has **two** apps:
 
 | Part | Stack | How to run |
 |------|--------|------------|
-| **Repository root** | [Expo](https://expo.dev) + React Native (layout similar to [CubiFlow/lemon-app](https://github.com/CubiFlow/lemon-app)) | `npm install` → `npx expo start` |
+| **Repository root** | [Expo](https://expo.dev) + React Native (based on the [CubiFlow/lemon-app](https://github.com/CubiFlow/lemon-app) template) | `npm install` → `npx expo start` |
 | **`little-lemon-food-ordering/`** | SwiftUI (Meta / Coursera iOS capstone) | Open `little-lemon-food-ordering/LittleLemonFoodOrdering.xcodeproj` in **Xcode** on a Mac (iOS 17+ simulator recommended) |
 
 **Course / peer review:** add your **Home screen wireframe** (export from Figma as JPG) under:

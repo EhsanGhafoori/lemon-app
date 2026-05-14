@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { UserContext } from '../context/UserContext';
 
-const OnboardingScreen = ({ navigation }) => {
+const OnboardingScreen = () => {
   const [page, setPage] = useState(0);
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -19,11 +19,11 @@ const OnboardingScreen = ({ navigation }) => {
   const [city, setCity] = useState('');
   const { saveUser } = useContext(UserContext);
 
-  const handleNext = () => {
+  const handleNext = async () => {
     if (page < 2) {
       setPage(page + 1);
     } else {
-      completeOnboarding();
+      await completeOnboarding();
     }
   };
 
@@ -37,7 +37,7 @@ const OnboardingScreen = ({ navigation }) => {
       city,
     };
     await saveUser(userData);
-    navigation.replace('Home');
+    // Root navigator switches to AppStack when `user` is set — do not navigate to Home from AuthStack.
   };
 
   const isNextEnabled = () => {

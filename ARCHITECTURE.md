@@ -1,5 +1,7 @@
 # Little Lemon Food Ordering App Architecture
 
+**Maintainer:** Ehsan Ghafoori · [github.com/EhsanGhafoori/lemon-app](https://github.com/EhsanGhafoori/lemon-app)
+
 ## Project Structure
 
 ```

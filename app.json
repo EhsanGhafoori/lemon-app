@@ -2,8 +2,8 @@
   "expo": {
     "name": "Little Lemon Food App",
     "slug": "little-lemon-food-app",
-    "version": "1.0.0",
-    "description": "A food ordering app for Little Lemon restaurant",
+    "version": "1.1.0",
+    "description": "Little Lemon food ordering — maintained by Ehsan Ghafoori (Expo + native iOS submodule).",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "littlelemon",
@@ -43,6 +43,10 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "developer": "Ehsan Ghafoori",
+      "developerGithub": "https://github.com/EhsanGhafoori"
     }
   }
 }

@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { UserContext } from '../context/UserContext';
 
-const ProfileScreen = ({ navigation }) => {
+const ProfileScreen = () => {
   const { user, saveUser, logout } = useContext(UserContext);
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -58,7 +58,7 @@ const ProfileScreen = ({ navigation }) => {
           text: 'Logout',
           onPress: async () => {
             await logout();
-            navigation.replace('Onboarding');
+            // Root navigator switches to AuthStack when `user` is cleared.
           },
         },
       ]
