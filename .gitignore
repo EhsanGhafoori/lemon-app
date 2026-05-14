@@ -41,3 +41,9 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Nested Xcode app: little-lemon-food-ordering (Swift / SwiftUI)
+little-lemon-food-ordering/**/xcuserdata/
+little-lemon-food-ordering/**/*.xcuserstate
+little-lemon-food-ordering/**/DerivedData/
+little-lemon-food-ordering/**/build/

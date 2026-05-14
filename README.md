@@ -1,3 +1,12 @@
+# Little Lemon monorepo
+
+This repository combines:
+
+1. **Expo (React Native)** app at the **repository root** (from the [CubiFlow/lemon-app](https://github.com/CubiFlow/lemon-app) layout): run `npm install` then `npx expo start`.
+2. **Native iOS (SwiftUI)** Meta/Coursera project in **`little-lemon-food-ordering/`**: open `little-lemon-food-ordering/LittleLemonFoodOrdering.xcodeproj` in **Xcode** on a Mac. Add your Home wireframe JPG under `little-lemon-food-ordering/design/`.
+
+---
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
